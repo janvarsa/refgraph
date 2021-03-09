@@ -9,6 +9,8 @@ let nodes = [
     label: "",
     authors: "2021", // anonymous?
     title: "A Network Representation Add-On For the References Section",
+    x: 0,
+    y: 0,
   },
   {
     id: 1,
@@ -17,6 +19,8 @@ let nodes = [
       "Khadidja Bakhti, Zhendong Niu, Abdallah Yousif, and Ally S Nyamawe",
     title:
       "Citation function classification based on ontologies and convolutional neural networks",
+    x: 30,
+    y: 40,
   },
   {
     id: 2,
@@ -24,13 +28,24 @@ let nodes = [
     authors: "Peter  Bergstrom  and  E  James  Whitehead  Jr.",
     title:
       "Circleview:  Scalable visualization and navigation of citation networks",
+    x: 40,
+    y: -40,
   },
-  { id: 3, label: "B 2021", authors: "Mike Bostock", title: "D3.js" },
+  {
+    id: 3,
+    label: "B 2021",
+    authors: "Mike Bostock",
+    title: "D3.js",
+    x: -40,
+    y: -40,
+  },
   {
     id: 4,
     label: "E 2009",
     authors: "Jason Eisner",
     title: "How to read a paper",
+    x: -40,
+    y: 40,
   },
   {
     id: 5,
@@ -38,18 +53,24 @@ let nodes = [
     authors: "Niklas Elmqvist and Philippas Tsigas",
     title:
       "Citewiz: a tool for the visualization of scientific citation networks",
+    x: 50,
+    y: 30,
   },
   {
     id: 6,
     label: "K 2007",
     authors: "Srinivasan Keshav",
     title: "How to read a paper",
+    x: 50,
+    y: -20,
   },
   {
     id: 7,
     label: "PH 2004",
     authors: "Mary Purugganan and Jan Hewit",
     title: "How to read a scientific article",
+    x: -20,
+    y: -50,
   },
   {
     id: 8,
@@ -57,24 +78,32 @@ let nodes = [
     authors: "Ulrich Schafer and Uwe Kasterka",
     title:
       "Scientific authoring support: A tool to navigate in typed citation graphs",
+    x: -50,
+    y: 20,
   },
   {
     id: 9,
     label: "G 2021",
     authors: "usability.gov(a)",
     title: "Contextual interview",
+    x: 50,
+    y: 10,
   },
   {
     id: 10,
     label: "G 2021",
     authors: "usability.gov(b)",
     title: "Card sorting",
+    x: 20,
+    y: -50,
   },
   {
     id: 11,
     label: "WS 2012",
     authors: "Benjamin Weitz and Ulrich Schafer",
-    title: "A graphical citation browser for the acl anthology.",
+    title: "A graphical citation browser for the acl anthology",
+    x: -50,
+    y: -20,
   },
   {
     id: 12,
@@ -82,6 +111,8 @@ let nodes = [
     authors: "Han Xu, Eric Martin, and Ashesh Mahidadia",
     title:
       "Using heterogeneous features for scientific citation classification",
+    x: -10,
+    y: 50,
   },
 ];
 

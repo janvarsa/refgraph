@@ -11,6 +11,9 @@ function App() {
   useEffect(() => {
     graphRef.current.zoom(5, 0);
     graphRef.current.centerAt(0, 0);
+    graphRef.current.d3Force("center", null);
+    graphRef.current.d3Force("charge", null);
+    graphRef.current.d3Force("link", null);
   }, []);
 
   const onNodeClick = (e) => {
@@ -82,6 +85,7 @@ function App() {
           linkCanvasObjectMode={() => "after"}
           nodeCanvasObject={nodeText}
           nodeCanvasObjectMode={() => "after"}
+          linkLabel={(d) => d.label + " description"}
           width={1100}
           height={1100}
           onNodeClick={onNodeClick}

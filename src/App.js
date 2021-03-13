@@ -14,12 +14,7 @@ const colors = {
     "rgb(183,53,211)",
     "rgb(169,255,23)",
   ],
-  accessible: [
-    "rgb(38,171,245)",
-    "rgb(214,66,245)",
-    "rgb(214, 172, 101)",
-    "rgb(13,71,161)",
-  ],
+  accessible: ["#ce4c0a", "#a95aa1", "#0b76de", "#0f2080"],
 };
 
 function App() {

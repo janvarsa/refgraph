@@ -1,8 +1,3 @@
-const grey = "rgb(195,195,195)";
-const blue = "rgb(37,131,255)";
-const purple = "rgb(183,53,211)";
-const lime = "rgb(169,255,23)";
-
 let nodes = [
   {
     id: 0, // origin node
@@ -117,24 +112,90 @@ let nodes = [
 ];
 
 let links = [
-  { source: 0, target: 1, curvature: 0.2, color: grey, label: "related_1" },
-  { source: 0, target: 2, curvature: 0.2, color: blue, label: "related_2" },
-  { source: 0, target: 3, curvature: 0.2, color: purple, label: "related_3" },
-  { source: 0, target: 4, curvature: 0.2, color: lime, label: "related_4" },
-  { source: 0, target: 5, curvature: 0.2, color: grey, label: "related_1" },
-  { source: 0, target: 6, curvature: 0.2, color: blue, label: "related_2" },
-  { source: 0, target: 7, curvature: 0.2, color: purple, label: "related_3" },
-  { source: 0, target: 8, curvature: 0.2, color: lime, label: "related_4" },
-  { source: 0, target: 9, curvature: 0.2, color: grey, label: "related_1" },
-  { source: 0, target: 10, curvature: 0.2, color: blue, label: "related_2" },
+  {
+    source: 0,
+    target: 1,
+    curvature: 0.2,
+    colorGroup: 0,
+    label: "related_1",
+  },
+  {
+    source: 0,
+    target: 2,
+    curvature: 0.2,
+    colorGroup: 1,
+    label: "related_2",
+  },
+  {
+    source: 0,
+    target: 3,
+    curvature: 0.2,
+    colorGroup: 2,
+    label: "related_3",
+  },
+  {
+    source: 0,
+    target: 4,
+    curvature: 0.2,
+    colorGroup: 3,
+    label: "related_4",
+  },
+  {
+    source: 0,
+    target: 5,
+    curvature: 0.2,
+    colorGroup: 0,
+    label: "related_1",
+  },
+  {
+    source: 0,
+    target: 6,
+    curvature: 0.2,
+    colorGroup: 1,
+    label: "related_2",
+  },
+  {
+    source: 0,
+    target: 7,
+    curvature: 0.2,
+    colorGroup: 2,
+    label: "related_3",
+  },
+  {
+    source: 0,
+    target: 8,
+    curvature: 0.2,
+    colorGroup: 3,
+    label: "related_4",
+  },
+  {
+    source: 0,
+    target: 9,
+    curvature: 0.2,
+    colorGroup: 0,
+    label: "related_1",
+  },
+  {
+    source: 0,
+    target: 10,
+    curvature: 0.2,
+    colorGroup: 1,
+    label: "related_2",
+  },
   {
     source: 0,
     target: 11,
     curvature: 0.2,
-    color: purple,
+    colorGroup: 2,
     label: "related_3",
   },
-  { source: 0, target: 12, curvature: 0.2, color: lime, label: "related_4" },
+  {
+    source: 0,
+    target: 12,
+    curvature: 0.2,
+    colorGroup: 3,
+    label: "related_4",
+  },
 ];
 
 const graphData = {

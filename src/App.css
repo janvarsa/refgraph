@@ -1,10 +1,26 @@
 .App {
-  text-align: center;
+  display: flex;
+  max-width: 1080px;
+  margin: auto;
+  flex-direction: column;
+  /* height: 100vh; */
 }
 
 .graph {
-  width: 1200px;
-  height: 1200px;
-  margin: auto;
-  display: flex;
+  height: 60vh;
+  max-width: 800px;
+  align-self: center;
+  margin: 5rem auto 2rem auto;
+}
+
+.custom-toggle.react-toggle--checked .react-toggle-track {
+  background-color: #1976d2;
+}
+
+.custom-toggle.react-toggle:hover .react-toggle-track {
+  background-color: #4d4d4d !important;
+}
+
+.custom-toggle.react-toggle--checked:hover .react-toggle-track {
+  background-color: #1976d2 !important;
 }

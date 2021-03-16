@@ -24,7 +24,7 @@ let nodes = [
     label: "BW2006",
     authors: "Peter  Bergstrom  and  E  James  Whitehead  Jr.",
     title:
-      "Circleview:  Scalable visualization and navigation of citation networks",
+      "CircleView:  Scalable visualization and navigation of citation networks",
     link:
       "https://www.semanticscholar.org/paper/CircleView-%3A-Scalable-Visualization-and-Navigation-Bergstr%C3%B6m-Whitehead/a7ce5d57da34fac3ef776be1d0fbaa70d92b68af",
     x: 48,
@@ -43,7 +43,7 @@ let nodes = [
     id: 4,
     label: "E2009",
     authors: "Jason Eisner",
-    title: "How to read a paper",
+    title: "How to read a technical paper",
     link: "http://cs.jhu.edu/~jason/advice/how-to-read-a-paper.html",
     x: -19,
     y: 37,
@@ -53,7 +53,7 @@ let nodes = [
     label: "ET2007",
     authors: "Niklas Elmqvist and Philippas Tsigas",
     title:
-      "Citewiz: a tool for the visualization of scientific citation networks",
+      "CiteWiz: a tool for the visualization of scientific citation networks",
     link:
       "https://www.researchgate.net/publication/220586688_CiteWiz_A_Tool_for_the_Visualization_of_Scientific_Citation_Networks",
     x: -42,
@@ -110,7 +110,7 @@ let nodes = [
     id: 11,
     label: "WS 2012",
     authors: "Benjamin Weitz and Ulrich Schafer",
-    title: "A graphical citation browser for the acl anthology",
+    title: "A graphical citation browser for the ACL anthology",
     link: "https://www.aclweb.org/anthology/L12-1474/",
     x: -40,
     y: 18,

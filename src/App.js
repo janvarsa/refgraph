@@ -32,6 +32,7 @@ function App() {
 
   const onNodeClick = (e) => {
     console.log(e);
+    if (e.id !== 0) window.open(e.link);
   };
 
   const linkText = (link, ctx, globalScale) => {
@@ -101,7 +102,7 @@ function App() {
           linkCurvature="curvature"
           nodeLabel={(d) => `${d.title} (${d.authors})`}
           nodeColor={(d) => (d.id === 0 ? "black" : "rgb(220,220,220)")}
-          nodeRelSize={1}
+          nodeRelSize={1.5}
           linkCanvasObject={linkText}
           linkCanvasObjectMode={() => "after"}
           nodeCanvasObject={nodeText}

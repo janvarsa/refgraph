@@ -17,6 +17,24 @@ const colors = {
   accessible: ["#ce4c0a", "#a95aa1", "#0b76de", "#0f2080"],
 };
 
+const linkDescriptions = {
+  Weak: "Weakness of cited approach.",
+  CoCoGM: "Contrast / comparison in results (neutral).",
+  "CoCo-":
+    "Unfavourable contrast / comparison (current work is better than cited work).",
+  CoCoXY: "Contrast between two cited methods.",
+  PBas: "Author uses cited work as a starting point.",
+  PUse: "Author uses tools / algorithms / data.",
+  PModi: "Author adapts or modifies tools / algorithms / data.",
+  PMot:
+    "This citation is positive about approach or problem addressed (used to motivate work in current article).",
+  PSim: "Author’s work and cited work are similar.",
+  PSup:
+    "Author’s work and cited work are compatible / provide support for each other.",
+  Neut:
+    "Neutral description of cited work, or not enough textual evidence for above categories or unlisted citation function.",
+};
+
 function App() {
   const graphRef = useRef();
   const [palette, setPalette] = useState("accessible");
@@ -107,7 +125,7 @@ function App() {
           linkCanvasObjectMode={() => "after"}
           nodeCanvasObject={nodeText}
           nodeCanvasObjectMode={() => "after"}
-          linkLabel={(d) => d.label + " description"}
+          linkLabel={(d) => linkDescriptions[d.label]}
           linkColor={(d) => colors[palette][d.colorGroup]}
           width={Math.min(800, window.innerWidth)}
           height={Math.min(800, window.innerWidth)}

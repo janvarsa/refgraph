@@ -10,7 +10,7 @@ let nodes = [
   },
   {
     id: 1,
-    label: "Bakhti, 2018",
+    label: "Bakhti 2018",
     authors:
       "Khadidja Bakhti, Zhendong Niu, Abdallah Yousif, and Ally S Nyamawe",
     title:
@@ -21,7 +21,7 @@ let nodes = [
   },
   {
     id: 2,
-    label: "Bergstrom, 2006",
+    label: "Bergstrom 2006",
     authors: "Peter  Bergstrom  and  E  James  Whitehead  Jr.",
     title:
       "CircleView:  Scalable visualization and navigation of citation networks",
@@ -32,7 +32,7 @@ let nodes = [
   },
   {
     id: 3,
-    label: "Dong, 2011",
+    label: "Dong 2011",
     authors: "Cailing Dong and Ulrich Schafer",
     title: "Ensemble-style self-training on citation classification",
     link: "https://www.aclweb.org/anthology/I11-1070/",
@@ -41,7 +41,7 @@ let nodes = [
   },
   {
     id: 4,
-    label: "Eisner, 2009",
+    label: "Eisner 2009",
     authors: "Jason Eisner",
     title: "How to read a technical paper",
     link: "http://cs.jhu.edu/~jason/advice/how-to-read-a-paper.html",
@@ -50,7 +50,7 @@ let nodes = [
   },
   {
     id: 5,
-    label: "Elmqvist, 2007",
+    label: "Elmqvist 2007",
     authors: "Niklas Elmqvist and Philippas Tsigas",
     title:
       "CiteWiz: a tool for the visualization of scientific citation networks",
@@ -61,7 +61,7 @@ let nodes = [
   },
   {
     id: 6,
-    label: "Keshav, 2007",
+    label: "Keshav 2007",
     authors: "Srinivasan Keshav",
     title: "How to read a paper",
     link: "http://ccr.sigcomm.org/online/files/p83-keshavA.pdf",
@@ -70,7 +70,7 @@ let nodes = [
   },
   {
     id: 7,
-    label: "Purugganan, 2004",
+    label: "Purugganan 2004",
     authors: "Mary Purugganan and Jan Hewit",
     title: "How to read a scientific article",
     link:
@@ -80,7 +80,7 @@ let nodes = [
   },
   {
     id: 8,
-    label: "Schafer, 2010",
+    label: "Schafer 2010",
     authors: "Ulrich Schafer and Uwe Kasterka",
     title:
       "Scientific authoring support: A tool to navigate in typed citation graphs",
@@ -90,7 +90,7 @@ let nodes = [
   },
   {
     id: 9,
-    label: "Rosing, 1977",
+    label: "Rosing 1977",
     authors: "Ina Spiegel-Rosing",
     title: "Science studies: bibliometric and content analysis",
     link: "https://journals.sagepub.com/doi/10.1177/030631277700700111",
@@ -99,7 +99,7 @@ let nodes = [
   },
   {
     id: 10,
-    label: "Teufel, 2006",
+    label: "Teufel 2006",
     authors: "Simone Teufel, Advaith Siddharthan, and Dan Tidhar",
     title: "An annotation scheme for citation function",
     link: "https://www.cl.cam.ac.uk/~sht25/papers/sigdial06.pdf",
@@ -108,7 +108,7 @@ let nodes = [
   },
   {
     id: 11,
-    label: "Weitz, 2012",
+    label: "Weitz 2012",
     authors: "Benjamin Weitz and Ulrich Schafer",
     title: "A graphical citation browser for the ACL anthology",
     link: "https://www.aclweb.org/anthology/L12-1474/",
@@ -117,7 +117,7 @@ let nodes = [
   },
   {
     id: 12,
-    label: "Xu, 2013",
+    label: "Xu 2013",
     authors: "Han Xu, Eric Martin, and Ashesh Mahidadia",
     title:
       "Using heterogeneous features for scientific citation classification",
@@ -128,7 +128,7 @@ let nodes = [
   },
   {
     id: 13,
-    label: "Han, 2016",
+    label: "Han 2016",
     authors: "Dongli Han, Hiroshi Koide, and Ayato Inoue",
     title:
       "Acquisition of scientific literatures based on citation-reason visualization",
@@ -138,7 +138,7 @@ let nodes = [
   },
   {
     id: 14,
-    label: "Kohavi, 2020",
+    label: "Kohavi 2020",
     authors: "Ron Kohavi, Diane Tang, and Ya Xu",
     title:
       "Trustworthy online controlled experiments: A practical guide to A/B testing",
@@ -149,7 +149,7 @@ let nodes = [
   },
   {
     id: 15,
-    label: "Moravcsik, 1975",
+    label: "Moravcsik 1975",
     authors: "Michael J Moravcsik and Poovanalingam Murugesan",
     title: "Some results on the function and quality of citations",
     link: "https://www.jstor.org/stable/284557?seq=1",
@@ -158,7 +158,7 @@ let nodes = [
   },
   {
     id: 16,
-    label: "Ziman, 1968",
+    label: "Ziman 1968",
     authors: "John M Ziman",
     title:
       "Public Knowledge: An Essay Concerning the Social Dimension of Science",

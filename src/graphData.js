@@ -24,7 +24,7 @@ let nodes = [
     label: "Bergstrom 2006",
     authors: "Peter  Bergstrom  and  E  James  Whitehead  Jr.",
     title:
-      "CircleView:  Scalable visualization and navigation of citation networks",
+      "CircleView: scalable visualization and navigation of citation networks",
     link:
       "https://www.semanticscholar.org/paper/CircleView-%3A-Scalable-Visualization-and-Navigation-Bergstr%C3%B6m-Whitehead/a7ce5d57da34fac3ef776be1d0fbaa70d92b68af",
     x: 41,
@@ -83,14 +83,14 @@ let nodes = [
     label: "Schafer 2010",
     authors: "Ulrich Schafer and Uwe Kasterka",
     title:
-      "Scientific authoring support: A tool to navigate in typed citation graphs",
+      "Scientific authoring support: a tool to navigate in typed citation graphs",
     link: "https://www.aclweb.org/anthology/W10-0402/",
     x: -22,
     y: 27,
   },
   {
     id: 9,
-    label: "Rosing 1977",
+    label: "Spiegel-Rosing 1977",
     authors: "Ina Spiegel-Rosing",
     title: "Science studies: bibliometric and content analysis",
     link: "https://journals.sagepub.com/doi/10.1177/030631277700700111",
@@ -103,8 +103,8 @@ let nodes = [
     authors: "Simone Teufel, Advaith Siddharthan, and Dan Tidhar",
     title: "An annotation scheme for citation function",
     link: "https://www.cl.cam.ac.uk/~sht25/papers/sigdial06.pdf",
-    x: 3,
-    y: -43,
+    x: 19,
+    y: -38,
   },
   {
     id: 11,
@@ -133,15 +133,15 @@ let nodes = [
     title:
       "Acquisition of scientific literatures based on citation-reason visualization",
     link: "https://www.scitepress.org/Papers/2016/56938/56938.pdf",
-    x: -17,
-    y: -42,
+    x: 0,
+    y: -38,
   },
   {
     id: 14,
     label: "Kohavi 2020",
     authors: "Ron Kohavi, Diane Tang, and Ya Xu",
     title:
-      "Trustworthy online controlled experiments: A practical guide to A/B testing",
+      "Trustworthy Online Controlled Experiments: a Practical Guide to A/B Testing",
     link:
       "https://www.researchgate.net/publication/339914315_Trustworthy_Online_Controlled_Experiments_A_Practical_Guide_to_AB_Testing",
     x: 41,
@@ -165,6 +165,17 @@ let nodes = [
     link: "https://philpapers.org/rec/ZIMPKA",
     x: 48,
     y: 3,
+  },
+  {
+    id: 17,
+    label: "Chau 2011",
+    authors:
+      "Duen Horng “Polo” Chau, Aniket Kittur, Jason I. Hong, and Christos Faloutsos",
+    title:
+      "Apolo: Making Sense of Large Network Data by Combining Rich User Interaction and Machine Learning",
+    link: "http://www.cs.cmu.edu/~dchau/apolo/apolo.pdf",
+    x: -21,
+    y: -32,
   },
 ];
 
@@ -280,6 +291,13 @@ let links = [
     curvature: 0.2,
     colorGroup: 0,
     label: "PMot",
+  },
+  {
+    source: 0,
+    target: 17,
+    curvature: 0.2,
+    colorGroup: 1,
+    label: "PBas",
   },
 ];
 

@@ -5,8 +5,8 @@ let nodes = [
     authors: "2021", // anonymous?
     title:
       "On augmenting the references section with a citation network visualization",
-    x: 0,
-    y: 0,
+    x: 6,
+    y: 1,
   },
   {
     id: 1,
@@ -162,6 +162,8 @@ let nodes = [
     authors: "John M Ziman",
     title:
       "Public Knowledge: An Essay Concerning the Social Dimension of Science",
+    note:
+      "Author note: The book highlights that in scholarly communication, academic papers often cite antecedent papers in passing, out of courtesy. The social pressure on authors to cite contributes to the culture of the deluge in citations.",
     link: "https://philpapers.org/rec/ZIMPKA",
     x: 48,
     y: 3,
@@ -172,7 +174,9 @@ let nodes = [
     authors:
       "Duen Horng “Polo” Chau, Aniket Kittur, Jason I. Hong, and Christos Faloutsos",
     title:
-      "Apolo: Making Sense of Large Network Data by Combining Rich User Interaction and Machine Learning",
+      "Apolo: making sense of large network data by combining rich user interaction and machine learning",
+    note:
+      "Author note: The paper proposes a tool that combines visualization, user interaction, and machine learning. In particular, it utilises a semi-supervised algorithm called belief propagation, which allows for multiple user specifications, linear scaling, and soft clustering. The paper provides an example with a third-degree network of a specified paper, which includes 83000 articles. Exploration and sense-making are user-driven rather than data-driven. Via its interactive layout (e.g., pinning papers in space), Apolo tries to capture the mental map users develop as they explore the literature. The paper provides both quantitative and qualitative results of a user study with twelve participants, comparing literature search enabled by Apolo vs.~Google Scholar. It is worth noting that Apolo, as described in the paper, does not use edge types that are independent of the paper (the taxonomy is specific to the paper in question).",
     link: "http://www.cs.cmu.edu/~dchau/apolo/apolo.pdf",
     x: -21,
     y: -32,

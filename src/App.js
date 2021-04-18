@@ -55,8 +55,9 @@ function App() {
 
   const linkText = (link, ctx, globalScale) => {
     const fontSize = Math.max(3, 12 / globalScale);
-    // const fontSize = 3;
-    // console.log(fontSize);
+
+    // if (link.target["note"]) console.log("link.label", link.label, link);
+
     ctx.font = `${fontSize}px Sans-Serif`;
     let midpoint = {
       x: (link.source.x + link.target.x) / 2,
@@ -125,7 +126,13 @@ function App() {
           linkCanvasObjectMode={() => "after"}
           nodeCanvasObject={nodeText}
           nodeCanvasObjectMode={() => "after"}
-          linkLabel={(d) => linkDescriptions[d.label]}
+          linkLabel={(d) => {
+            return (
+              linkDescriptions[d.label] +
+              "                          " +
+              (d.target.hasOwnProperty("note") ? d.target.note : "")
+            );
+          }}
           linkColor={(d) => colors[palette][d.colorGroup]}
           width={Math.min(800, window.innerWidth)}
           height={Math.min(800, window.innerWidth)}
